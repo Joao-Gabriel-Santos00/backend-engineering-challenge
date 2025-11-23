@@ -1,4 +1,6 @@
+# Python temporary files
+__pycache__/
+
 # Virtual Environment
 .venv/
-venv/
 
