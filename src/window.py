@@ -43,5 +43,11 @@ class SlidingWindow:
         Returns the moving average of the current window.
         """
         if self.count == 0:
-            return 0.0
-        return self.current_sum / self.count
+            return 0
+            
+        avg = self.current_sum / self.count
+        
+        if avg.is_integer():
+            return int(avg)
+            
+        return avg
