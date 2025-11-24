@@ -1,7 +1,7 @@
 import json
 from datetime import datetime, timedelta
-from parser import parse_events
-from window import SlidingWindow
+from src.parser import parse_events
+from src.window import SlidingWindow
 
 def floor_minute(t: datetime) -> datetime:
     """Rounds a datetime down to the nearest minute."""

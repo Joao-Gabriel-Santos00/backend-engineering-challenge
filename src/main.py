@@ -1,7 +1,7 @@
 import argparse
 import sys
 import os
-from processor import process_stream
+from src.processor import process_stream
 
 def main():
     parser = argparse.ArgumentParser(description="Translation Delivery Time Aggregator")
